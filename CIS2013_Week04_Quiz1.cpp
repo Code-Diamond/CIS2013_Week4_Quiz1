@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    for(int i = 1; i <= 100; i++)
+    for(int i = 1; i <= 2000; i++)
     {
         cout << i;
         
         if(i%50 == 0)
         {
-            cout << "FOO";
+            cout << " FOO";
         }
         
         if(i%33 == 0)
         {
-            cout << "BAR";
+            cout << " BAR";
         }
         
         cout << "\n";
@@ -26,3 +26,6 @@ int main()
     
     return 0;
 }
+
+
+
